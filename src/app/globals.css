@@ -27,11 +27,14 @@ body {
 
 /* Custom animations */
 @keyframes gradient-x {
-  0%, 100% {
-    transform: translateX(0%) translateY(0%);
+  0% {
+    background-position: 0% 50%;
   }
   50% {
-    transform: translateX(-5%) translateY(-2%);
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
